@@ -1,0 +1,14 @@
+:root{
+
+     /* PRIMARY */
+    --df-color-primary: #0041be;
+    
+     /* DANGER */
+    --ld-color-danger: #FF2222;
+
+    /* GRAY */
+    --df-color-gray-lighter: #F9FBFD;
+    --df-color-gray-light: #B8B7B7;
+    --df-color-gray: #767684;
+    --df-color-gray-dark: #09090A;
+}

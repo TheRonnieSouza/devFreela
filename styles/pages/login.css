@@ -1,0 +1,39 @@
+.df-login >.df-wrapper{
+    max-width: var(--df-main-wrapper);
+    margin: 0 auto;
+}
+
+.df-login >.df-wrapper >.df-header{
+    height: var(--df-header-size);
+    width: 100%;
+    background: green;
+    box-shadow: 0px 4px 6px rgba(0,0,0,0.15);
+    position: fixed;
+
+    left:0;
+    right: 0;
+}
+
+.df-login >.df-wrapper >.df-header >.wrapper{
+    max-width: var(--df-main-wrapper);
+    margin: 0 auto;
+    background-color: rgb(95, 148, 95);
+}
+
+
+.df-login >.df-wrapper >.df-main-content {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: var(--df-header-size);
+}
+
+
+.df-login >.df-wrapper >.df-main-content >.left{
+   
+    background: rgb(92, 0, 128);
+}
+
+.df-login >.df-wrapper >.df-main-content >.right{
+  
+    background-color: red;
+}
